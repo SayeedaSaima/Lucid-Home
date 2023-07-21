@@ -1,0 +1,241 @@
+/*css media query goes here*/
+
+@media (min-width: 320px) and (max-width: 480px){
+/*css strt*/
+  .header .navbar-nav .nav-item .nav-link{
+    margin: 0;
+  }
+  .header .navbar-nav .nav-item .nav-link:hover{
+    background: url("../images/line.png") left; bottom no-repeat;
+    
+  }
+  .header .navbar-nav .nav-item .nav-link:focus{
+    background: url("../images/line.png") left bottom no-repeat;
+  }
+  .header .navbar-nav .nav-item .active{
+    background: url("../images/line.png") left bottom no-repeat;
+  }
+  .banner{
+    padding: 50px 0;
+  }
+  .banner h4{
+    font-size: 14px;
+  }
+  .banner h1{
+    font-size: 28px;
+    line-height: 1.2em;
+  }
+  .banner p{
+    font-size: 10px;
+  }
+  .double-btn{
+    padding: 15px 0 0;
+  }
+  .double-btn .btn-primary{
+    padding: 8px 14px;
+    font-size: 10px;
+    margin: 0 9px 0 0;
+  }
+  .double-btn .btn-light{
+    padding: 8px 14px;
+    font-size: 10px;
+  }
+  .title{
+    width: 100%;
+    padding: 0px 0px 20px;
+  }
+  .title h4{
+    font-size: 14px;
+  }
+  .title h1{
+    font-size: 25px;
+    font-weight: 650;
+    line-height: 1.2em;
+    color: #000;
+    margin: 7px 0px 10px;
+  }
+  .about-long{
+    padding: 40px 0;
+  }
+  .about-long p{
+    font-size: 10px;
+  }
+  .about-short{
+    padding: 40px 0;
+  }
+  .about-short .title{
+    padding: 40px 0 10px;
+  }
+  .about-short .title h1{
+    font-size: 25px;
+  }
+  .about-short p{
+    font-size: 10px;
+  }
+  .testimonial{
+    padding: 40px 0;
+  }
+  .testimonial .owl-carousel .item h4{
+    font-size: 14px;
+  }
+  .testimonial .owl-theme .owl-nav.disabled+.owl-dots{
+    margin-top: 60px ;
+  }
+  .eye-catcher{
+    padding: 25px 0;
+  }
+  .eye-catcher h1{
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  .pricing{
+    padding: 40px 0;
+  }
+  .pricing-box{
+    margin-bottom: 15px;
+  }
+  .contact .info{
+    margin-bottom: 10px;
+  }
+  .footer p{
+    font-size: 10px;
+  }
+/*css end*/
+}
+@media (min-width: 481px) and (max-width: 767px){
+/*css strt*/
+  .header .navbar-nav .nav-item .nav-link{
+    margin: 0;
+  }
+  .header .navbar-nav .nav-item .nav-link:hover{
+    background: url("../images/line.png") left; bottom no-repeat;
+    
+  }
+  .header .navbar-nav .nav-item .nav-link:focus{
+    background: url("../images/line.png") left bottom no-repeat;
+  }
+  .header .navbar-nav .nav-item .active{
+    background: url("../images/line.png") left bottom no-repeat;
+  }
+  .banner{
+    padding: 50px 0;
+  }
+  .banner h4{
+    font-size: 14px;
+  }
+  .banner h1{
+    font-size: 33px;
+    line-height: 1.2em;
+  }
+  .banner p{
+    font-size: 12px;
+  }
+  .double-btn{
+    padding: 15px 0 0;
+  }
+  .double-btn .btn-primary{
+    padding: 8px 14px;
+    font-size: 10px;
+    margin: 0 9px 0 0;
+  }
+  .double-btn .btn-light{
+    padding: 8px 14px;
+    font-size: 10px;
+  }
+  .title{
+    width: 100%;
+    padding: 0px 0px 20px;
+  }
+  .title h4{
+    font-size: 14px;
+  }
+  .title h1{
+    font-size: 25px;
+    font-weight: 650;
+    line-height: 1.2em;
+    color: #000;
+    margin: 7px 0px 10px;
+  }
+  .about-long{
+    padding: 40px 0;
+  }
+  .about-long p{
+    font-size: 12px;
+  }
+  .about-short{
+    padding: 40px 0;
+  }
+  .about-short .title{
+    padding: 40px 0 10px;
+  }
+  .about-short .title h1{
+    font-size: 25px;
+  }
+  .about-short p{
+    font-size: 12px;
+  }
+  .testimonial{
+    padding: 40px 0;
+  }
+  .testimonial .owl-carousel .item h4{
+    font-size: 14px;
+  }
+  .testimonial .owl-theme .owl-nav.disabled+.owl-dots{
+    margin-top: 60px ;
+  }
+  .eye-catcher{
+    padding: 25px 0;
+  }
+  .eye-catcher h1{
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  .pricing{
+    padding: 40px 0;
+  }
+  .pricing-box{
+    margin-bottom: 15px;
+  }
+  .contact .info{
+    margin-bottom: 10px;
+  }
+  .footer p{
+    font-size: 10px;
+  }
+
+/*css end*/
+}
+@media (min-width: 768px) and (max-width: 1024px){
+/*css strt*/
+  .header .navbar-nav .nav-item .nav-link{
+    margin: 0;
+  }
+  .header .navbar-nav .nav-item .nav-link:hover{
+    background: url("../images/line.png") left; bottom no-repeat;
+    
+  }
+  .header .navbar-nav .nav-item .nav-link:focus{
+    background: url("../images/line.png") left bottom no-repeat;
+  }
+  .header .navbar-nav .nav-item .active{
+    background: url("../images/line.png") left bottom no-repeat;
+  }
+  .about-short p{
+    font-size: 12px;
+  }
+  .eye-catcher h1{
+    font-size: 25px;
+    margin-top: 10px;
+  }
+  .pricing-box{
+    margin-bottom: 15px;
+  }
+  .pricing-box .price-content p{
+    width: 100%;
+    font-size: 12px;
+  }
+  .pricing-box .price-content .btn-primary{
+    font-size: 10px;
+  }
+/*css end*/
+}
